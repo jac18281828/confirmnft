@@ -2,8 +2,6 @@
 
 Confirm tokens for a given contract on the calling wallet
 
-# Discovery available if Enumerable
-
 - Foundry
 - Docker
 
@@ -30,4 +28,6 @@ Contract successfully verified
 
 ## Example
 
+```
+cast call 0xEED08072c41235bC9DE0846D9D49F096Cc15A750 "emitConfirmedTokens(address)" --rpc-url ${DEV_RPC_URL} --from ${DEV_ETH_PUBLIC} 0xE3C82840FA0605a424Cc1ea6BC013D12909E4e69
 ```
